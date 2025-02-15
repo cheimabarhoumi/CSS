@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(217, 242, 255);
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    background-color: white; 
+}
+img{
+    width: 300px;
+    height: 75px;
+}
+.user{
+    background-color: rgb(22, 7, 36);
+    color: white;
+    display: flex;
+
+}
+section{
+    display:flex;
+    align-items: space-between; 
+    text-align: center;
+}
+aside{
+    padding: 5px;
+    background-color: #352a3f;
+}
+aside .msg{
+    display:flex;
+    justify-content: left;
+    align-items: left; 
+    text-align: left;
+    width: 300px;
+    height: 500px;
+}
+aside .group{
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    width: 300px;
+    margin-top: 10px;
+}
+.group:hover {
+    background-color: rgb(44, 19, 67);
+    color: white;
+}
+
+.conversation {
+    /* margin:20px; */
+    color: rgb(244, 19, 19);
+    text-align: center;
+    background-image: url("bg.png");
+    width: 100em;
+}
+.msg1{
+    margin:20px;
+    background-color: rgb(35, 34, 36);
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    /* padding: 8px;*/
+    width: 100px;
+    margin-top: 20em;
+}
+.msg2{
+    margin-left: 1090px;
+    margin-top: 10px;
+    background-color: rgb(35, 34, 36);
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    width: 100px;
+}
+/* .p:hover {
+    background-color: rgb(44, 19, 67);
+    color: white;
+} */
+input {
+    background-color: #160724;
+}
+.textmsg{
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 500px;
+}
+footer {
+    background-color:#242325 ;
+    /* margin-top: 15px; */
+    height: 70px;
+}
+.footer-message{
+    text-align: center;
+    padding:20px; 
+}
+
+.footer-message  a{
+    color:#5b6b7f;
+    font-weight: bold;
+}

@@ -1,0 +1,144 @@
+/* .nav .links{
+    display: flex;
+    justify-content: left;
+    background-color: white; 
+} */
+body {
+    background-color: rgb(242, 232, 251);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(233, 211, 253);
+    top: 0px;
+    width: 50;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 67px;
+}
+
+.welcome {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+
+}
+
+.links a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet;
+    margin-right: 26px;
+}
+
+.links a:hover {
+    color: #4fa3db;
+    text-decoration: underline;
+}
+main{
+    margin: 50px;
+}
+article {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.everyone {
+    font-family: 'Courier New', Courier, monospace
+}
+.card-project {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p {
+    font-family: cursive;
+}
+
+.me {
+    border-radius: 200px;
+    border: 5px solid rgb(190, 123, 253);
+    width: 350px;
+    height: 300px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.card img {
+    margin: 30px;
+    width: 350px;
+    height: 245px;
+}
+.send-me{
+    font-size:50px;
+    font-family: cursive;
+}
+.contact{
+    display: flex;
+    margin-top: 10px;
+}
+.contact-me{
+    margin: 50px;
+    padding: 20px;
+    height: 28em;
+    width: 33em;
+    border-radius: 2em;
+    background-color: rgb(241, 192, 249);
+    border: 5px dashed orange;
+}
+label{
+    /* margin-top: 50px; */
+    font-family: cursive;
+}
+input{
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    width: 38em;
+    height: 2em;
+}
+textarea{
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    width: 38em;
+    height: 20em;
+}
+button{
+    background-color: rgb(255, 236, 200);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border:2px solid orange;
+    width: 100px;
+    height: 25px;
+    font-size: 18px;
+}
+.contact-img{
+    width: 5em;
+    height: 5em;
+}
+.contact{
+    font-family: 'Courier New', Courier, monospace
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end-link a{
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    font-size: 20px;
+    
+}
